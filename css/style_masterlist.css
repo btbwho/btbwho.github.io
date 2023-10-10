@@ -1,0 +1,60 @@
+body {
+	    	background-color: #00060f;
+    	}
+    	
+  
+  .donofloaty {
+      position:fixed;
+      bottom: 20px;
+      left: 20px;
+      }  
+	
+  headerbtb {
+		  font-family: Verdana;
+		  font-size: 25px;
+		  color: #c4c7cc;
+		  text-align:center;
+		  line-height:1.80em;
+		  display: block;
+		  }
+
+  footer {
+    	display:block;
+      font-family: Verdana;
+		  font-size: 12px;
+      color: #6c6877;
+      text-align:center;
+      line-height:4.5em;
+    	}
+	
+  a {
+		  text-decoration: none;
+		  }
+
+
+
+
+  .titlestrap {
+    font-family: Helvetica;
+    color: #c4c7cc;
+    font-size: 20px;
+    line-height: 2em;
+    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    }
+
+@media screen and (max-width: 600px) {
+  .titlestrap {
+    font-family: Helvetica;
+    color: #eeeeee;
+    font-size: 20px;
+    line-height: 10px;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: 700;
+    }
+}
+
