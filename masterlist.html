@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<!-- _______________this is going to be the head_______________ -->
+
+<head>
+  <title>Masterlist</title>
+	<link rel="icon" type="image/x-icon" href="images/btb colored logo.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style_masterlist.css">
+
+
+
+<!-- ______________downextra 4 cards_______________ -->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+<style class="cp-pen-styles">
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700");
+
+body {
+	    	background-color: #00060f;
+    	}
+
+  
+* {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+  a {
+		  text-decoration: none;
+		  }
+
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h4, h5, p {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 700;
+  }
+
+a.secondstyle {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.secondstyle:hover {
+  color: #6ABCEA;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.movie-card {
+  background: #001029;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 267.75px;
+  margin: 0.2em;
+  border-radius: 10px;
+  display: inline-block;
+  border-sizing: border-box;
+}
+
+.movie-header {
+  padding: 0;
+  margin: 0;
+  height: 367px;
+  width: 100%;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.m2005 {
+  background: url('images/m2005 cover.png') center;
+  background-size: cover;
+}
+
+.m2006 {
+  background: url('images/m2006 cover.jpg') center;
+  background-size: cover;
+}
+
+.m2007 {
+  background: url('images/m2007 cover.jpg') center;
+  background-size: cover;
+}
+
+.m2008 {
+  background: url('images/m2008 cover.jpg') center;
+  background-size: cover;
+}
+  
+.m200901 {
+  background: url('images/m200901 cover.jpg') center;
+  background-size: cover;
+}
+  
+.m200902 {
+  background: url('images/m200902 cover.png') center;
+  background-size: cover;
+}
+  
+.m200903 {
+  background: url('images/m200903 cover.png') center;
+  background-size: cover;
+}
+  
+.m200904 {
+  background: url('images/m200904 cover.png') center;
+  background-size: cover;
+}
+  
+.season01 {
+  background: url('images/season01 cover.jpg') center;
+  background-size: cover;
+}
+  
+.season02 {
+  background: url('images/season02 cover.jpg') center;
+  background-size: cover;
+}
+  
+.season03 {
+  background: url('images/season03 cover.jpg') center;
+  background-size: cover;
+}
+  
+.season04 {
+  background: url('images/season04 cover.jpg') center;
+  background-size: cover;
+}
+ 
+  
+  
+.header-icon-container {
+  position: relative;
+}
+
+.header-icon {
+  width: 100%;
+  height: 367px;
+  line-height: 367px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 54px;
+  text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6ABCEA;
+  opacity: .85;
+}
+
+.header-icon:hover {
+  background: rgba(0, 0, 0, 0.15);
+  font-size: 74px;
+  text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6ABCEA;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 1;
+}
+
+.movie-card:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.movie-content {
+  padding: 18px 18px 24px 18px;
+  margin: 0;
+}
+
+.movie-content-header, .movie-info {
+  display: table;
+  width: 100%;
+  color: #eeeeee;
+}
+
+.movie-title {
+  font-size: 15px;
+  margin: 0;
+  display: table-cell;
+}
+
+.bbc-logo {
+  width: 25px;
+  height: 25px;
+  background: url('images/bbclogo.png') center no-repeat;
+  background-size: contain;
+  display: table-cell;
+  float: right;
+  position: relative;
+  padding-top: 1px;
+}
+
+
+
+.movie-info {
+  margin-top: 1em;
+}
+
+.info-section {
+  display: table-cell;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.info-section:first-of-type {
+  text-align: left;
+}
+
+.info-section:last-of-type {
+  text-align: right;
+}
+
+.info-section label {
+  display: block;
+  color: #C2BECC;
+  margin-bottom: .5em;
+  font-size: 9px;
+}
+
+.info-section span {
+  font-weight: 700;
+  font-size: 11px;
+  color: #C2BECC;
+}
+
+@media screen and (max-width: 600px) {
+  .movie-card {
+    width: 95%;
+    max-width: 95%;
+    margin: 1em;
+    display: block;
+
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cards {
+    margin: 45px; /* --------------or could be none/zero------------------ */
+    margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+.cards {
+    margin: 25px;
+    display: flex;
+        flex-wrap:wrap;
+  	justify-content: center;
+  	align-items: center;
+  }
+}
+
+
+
+</style>
+<!-- ______________upextra 4 cards_______________ -->
+
+
+<!-- ______________header title begins_______________ -->
+
+<a href="https://btbwho.github.io/" style="text-decoration:none;">
+<headerbtb>BEARTHEBANGTAN</headerbtb></a>
+
+<!-- ______________header title ends_______________ -->
+
+</head>
+
+
+
+
+<!-- ______________this is going to be the body_______________ -->
+
+<body>
+
+<div class="section1">
+  <div class="titlestrap">
+    > MASTERLIST
+  </div>
+</div>
+
+
+
+<!-- ______________cards_______________ -->
+<div class="cards">
+
+	<div class="movie-card"> <!-- __________________season01___________________ -->
+		<div class="movie-header season01">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/season01">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/season01">            <!-- _button link_ -->
+					<h3 class="movie-title">DoctorWho - Season01</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2005</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Episodes</label>
+					<span>13</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--season01-->
+  
+	<div class="movie-card"> <!-- __________________M2005___________________ -->
+		<div class="movie-header m2005">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m2005">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m2005">            <!-- _button link_ -->
+					<h3 class="movie-title">The Christmas Invasion</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2005</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>01:01:44</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--M2005-->
+	
+	<div class="movie-card"> <!-- __________________season02___________________ -->
+		<div class="movie-header season02">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/season02">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/season02">            <!-- _button link_ -->
+					<h3 class="movie-title">DoctorWho - Season02</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2006</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Episodes</label>
+					<span>13</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--season02-->
+  
+	<div class="movie-card"> <!-- __________________M2006___________________ -->
+		<div class="movie-header m2006">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m2006">               <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m2006">                <!-- _button link_ -->
+					<h3 class="movie-title">The Runaway Bride</h3>
+				</a>
+				<div class="bbc-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2006</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>01:03:10</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--M2006-->
+  
+	<div class="movie-card"> <!-- __________________season03___________________ -->
+		<div class="movie-header season03">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/season03">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/season03">            <!-- _button link_ -->
+					<h3 class="movie-title">DoctorWho - Season03</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2007</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Episodes</label>
+					<span>13</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--season03-->
+	
+	<div class="movie-card"> <!-- __________________M2007___________________ -->
+		<div class="movie-header m2007">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m2007">               <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m2007">                <!-- _button link_ -->
+					<h3 class="movie-title">Voyage Of The Damned</h3>
+				</a>
+				<div class="bbc-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2007</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>01:15:05</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--M2007-->
+  
+	<div class="movie-card"> <!-- __________________season04___________________ -->
+		<div class="movie-header season04">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/season04">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/season03">            <!-- _button link_ -->
+					<h3 class="movie-title">DoctorWho - Season04</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2008</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Episodes</label>
+					<span>13</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--season04-->
+	
+	<div class="movie-card"> <!-- __________________M2008___________________ -->
+		<div class="movie-header m2008">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m2008">               <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m2008">                <!-- _button link_ -->
+					<h3 class="movie-title">The Next Doctor</h3>
+				</a>
+				<div class="bbc-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2008</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>01:00:41</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--M2008-->
+  
+	<div class="movie-card"> <!-- __________________M200901___________________ -->
+		<div class="movie-header m200901">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m200901">               <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m200901">                <!-- _button link_ -->
+					<h3 class="movie-title">Waters of Mars</h3>
+				</a>
+				<div class="bbc-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2009</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>01:02:07</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--M2009F01-->
+  
+	<div class="movie-card"> <!-- __________________M200902___________________ -->
+		<div class="movie-header m200902">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m200902">               <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m200902">                <!-- _button link_ -->
+					<h3 class="movie-title">Planet of the Dead</h3>
+				</a>
+				<div class="bbc-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2009</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>0x:xx:xx</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--M2009F02-->
+  
+	<div class="movie-card"> <!-- __________________M200903___________________ -->
+		<div class="movie-header m200903">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m200903">               <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m200903">                <!-- _button link_ -->
+					<h3 class="movie-title">The End of Time (pt.01)</h3>
+				</a>
+				<div class="bbc-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2009</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>0x:0x:xx</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--M2009F03-->
+  
+	<div class="movie-card"> <!-- __________________M200904___________________ -->
+		<div class="movie-header m200904">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m200904">               <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m200904">                <!-- _button link_ -->
+					<h3 class="movie-title">The End of Time (pt.02)</h3>
+				</a>
+				<div class="bbc-logo"></div>
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2009</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>0x:0x:xx</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--M2009F04-->
+  
+  
+</div>
+
+
+
+
+<div class="donofloaty">
+  <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+  <script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi!', '#011331', 'Q5Q14H9Q3');kofiwidget2.draw();</script>
+</div>
+
+
+
+</body>
+
+
+
+<!-- ______________footer_______________ -->
+
+<footer>
+<p style="line-height:20px">Coded by © BEARTHEBANGTAN | 2023</p>
+</footer>
+
+</html>
+
+
