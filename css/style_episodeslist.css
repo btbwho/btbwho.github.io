@@ -148,16 +148,10 @@ body {
   }
 
 .episode-thumbnail {
-  width: 120px; /* Adjust the width as needed */
+  width: 180px; /* Adjust the width as needed */
   height: auto;
   margin-right: 15px; /* Adjust the margin as needed */
 }
-
-  @media screen and (max-width: 600px) {
-      .container > *:not(.tab-wrap) {
-  padding: 0 15px;
-      }
-    }
 
 
 /* Boring stuff */
@@ -174,6 +168,11 @@ body {
   padding: 0 80px;
 }
 
+  @media screen and (max-width: 600px) {
+      .container > *:not(.tab-wrap) {
+  padding: 0 5px;
+      }
+    }
 
 
 /* Buttons */
