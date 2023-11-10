@@ -123,7 +123,8 @@ body {
   }
 
   .episode-button {
-    display: block;
+    display: flex;
+    align-items: center;
     width: 100%;
     background-color: #00060f;
     color: white;
@@ -145,6 +146,12 @@ body {
   .episode-icon {
     margin-right: 15px;
   }
+
+.episode-thumbnail {
+  width: 120px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 15px; /* Adjust the margin as needed */
+}
 
 
 /* Boring stuff */
@@ -192,6 +199,7 @@ body {
     background-color: #000000;
     color: #9d9b9f;
   }
+
 
 
 
