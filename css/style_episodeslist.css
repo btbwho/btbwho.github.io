@@ -153,6 +153,12 @@ body {
   margin-right: 15px; /* Adjust the margin as needed */
 }
 
+  @media screen and (max-width: 600px) {
+      .container > *:not(.tab-wrap) {
+  padding: 0 15px;
+      }
+    }
+
 
 /* Boring stuff */
 
