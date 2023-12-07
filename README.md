@@ -6,7 +6,7 @@ Watch it with English captions remastered by @bearthebangtan, or with Romanian s
 
 ## Disclaimer
 
-The website does not host any files, besides its images.
+The website does not host any files, besides its images - which I do not own and whose rights go to their rightful owners.
 
 Any other content is hosted on third party websites, and therefore I do not accept any responsability for them.
 
