@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<!-- _______________this is going to be the head_______________ -->
+
+<head>
+  <title>DoctorWhoSpecials2023</title>
+	<link rel="icon" type="image/x-icon" href="images/btb colored logo.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style_specialslist.css">
+
+
+
+<!-- ______________downextra 4 cards_______________ -->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+<style class="cp-pen-styles">
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700");
+
+body {
+	    	background-color: #00060f;
+    	}
+
+  
+* {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+  a {
+		  text-decoration: none;
+		  }
+
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h4, h5, p {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 700;
+  }
+
+a.secondstyle {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.secondstyle:hover {
+  color: #6ABCEA;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.movie-card {
+  background: #001029;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 267.75px;
+  margin: 0.2em;
+  border-radius: 10px;
+  display: inline-block;
+  border-sizing: border-box;
+}
+
+.movie-header {
+  padding: 0;
+  margin: 0;
+  height: 367px;
+  width: 100%;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+  .m202300 {
+  background: url('images/m202300 cover.jpg') center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+	.m202300 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	}
+}
+  
+.m202301 {
+  background: url('images/m202301 cover.jpg') center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+	.m202301 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	}
+}
+  
+.m202302 {
+  background: url('images/m202302 cover.jpg') center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+	.m202302 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	}
+}
+  
+.m202303 {
+  background: url('images/m202303 cover.jpg') center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+	.m202303 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	}
+}
+
+	
+  
+.header-icon-container {
+  position: relative;
+}
+
+.header-icon {
+  width: 100%;
+  height: 367px;
+  line-height: 367px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 54px;
+  text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6ABCEA;
+  opacity: .85;
+}
+
+.header-icon:hover {
+  background: rgba(0, 0, 0, 0.15);
+  font-size: 74px;
+  text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6ABCEA;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 1;
+}
+
+.movie-card:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.movie-content {
+  padding: 18px 18px 24px 18px;
+  margin: 0;
+}
+
+.movie-content-header, .movie-info {
+  display: table;
+  width: 100%;
+  color: #eeeeee;
+}
+
+.movie-title {
+  font-size: 15px;
+  margin: 0;
+  display: table-cell;
+}
+
+.bbc-logo {
+  width: 25px;
+  height: 25px;
+  background: url('images/bbclogo.png') center no-repeat;
+  background-size: contain;
+  display: table-cell;
+  float: right;
+  position: relative;
+  padding-top: 1px;
+}
+
+
+
+.movie-info {
+  margin-top: 1em;
+}
+
+.info-section {
+  display: table-cell;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.info-section:first-of-type {
+  text-align: left;
+}
+
+.info-section:last-of-type {
+  text-align: right;
+}
+
+.info-section label {
+  display: block;
+  color: #C2BECC;
+  margin-bottom: .5em;
+  font-size: 9px;
+}
+
+.info-section span {
+  font-weight: 700;
+  font-size: 11px;
+  color: #C2BECC;
+}
+
+@media screen and (max-width: 600px) {
+  .movie-card {
+    width: 95%;
+    max-width: 95%;
+    margin: 1em;
+    display: block;
+
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cards {
+    margin: 45px; /* --------------or could be none/zero------------------ */
+    margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+.cards {
+    margin: 25px;
+    display: flex;
+        flex-wrap:wrap;
+  	justify-content: center;
+  	align-items: center;
+  }
+}
+
+
+
+</style>
+<!-- ______________upextra 4 cards_______________ -->
+
+
+<!-- ______________header title begins_______________ -->
+
+<a href="https://btbwho.github.io/" style="text-decoration:none;">
+<headerbtb>BEARTHEBANGTAN</headerbtb></a>
+
+<!-- ______________header title ends_______________ -->
+
+</head>
+
+
+
+
+<!-- ______________this is going to be the body_______________ -->
+
+<body>
+
+<div class="section1">
+
+<div class="banner">
+	<div class="banner-image"> <!-- img -->
+		<img src="images/season01 big.png">
+	</div>
+	<div class="series-info"> <!-- info -->
+		<div class="series-title">
+			Doctor Who - 60th Anniversary Specials
+		</div>
+		<div class="episode-info">
+			TV Series
+		</div>
+		<div class="bottom-row">
+			<div class="info-item">Release: 2023</div>
+			<div class="info-item">Episodes: 4</div>
+			<div class="info-item">RO+ENG SUB</div>
+			<div class="info-item">BBC HD</div>
+		</div>
+	</div>
+</div>
+  
+</div>
+
+
+
+<!-- ______________cards_______________ -->
+<div class="cards">
+
+	<div class="movie-card"> <!-- __________________m202300___________________ -->
+		<div class="movie-header m202300">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m202300">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m202300">            <!-- _button link_ -->
+					<h3 class="movie-title">Destination: Skaro</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2023</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>05:09</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--m202300-->
+  
+	<div class="movie-card"> <!-- __________________m202301___________________ -->
+		<div class="movie-header m202301">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m202301">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m202301">            <!-- _button link_ -->
+					<h3 class="movie-title">The Star Beast</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2023</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>57:17</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--m202301-->
+
+	<div class="movie-card"> <!-- __________________m202302___________________ -->
+		<div class="movie-header m202302">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m202302">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m202302">            <!-- _button link_ -->
+					<h3 class="movie-title">Wild Blue Yonder</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2023</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>54:45</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--m202302-->
+  
+	<div class="movie-card"> <!-- __________________m202303___________________ -->
+		<div class="movie-header m202303">
+			<div class="header-icon-container">
+				<a class="secondstyle" href="https://btbwho.github.io/m202303">             <!-- _button link_ -->
+					<i class="material-icons header-icon"></i>
+				</a>
+			</div>
+		</div><!--movie-header-->
+		<div class="movie-content">
+			<div class="movie-content-header">
+				<a class="secondstyle" href="https://btbwho.github.io/m202303">            <!-- _button link_ -->
+					<h3 class="movie-title">The Giggle</h3>
+				</a>
+				<div class="bbc-logo"></div>         <!-- _logo_ -->
+			</div>
+			<div class="movie-info">
+				<div class="info-section">
+					<label>Release</label>
+					<span>2023</span>
+				</div>                    <!-- _data_ -->
+				<div class="info-section">
+					<label>Movie</label>
+					<span>xx:xx</span>         <!-- _eps_ -->
+				</div><!--screen-->
+				<div class="info-section">
+					<label>HD</label>
+					<span>BBC</span>
+				</div>                 <!-- _info_ -->
+			</div>
+		</div><!--movie-content-->
+	</div> <!--m202303-->
+
+</div>
+
+
+<div class="buttonssection"> <!-- buttons -->
+<a href="https://btbwho.github.io/masterlist" class="button"><i class="fa-solid fa-angles-left"></i> Masterlist</a>
+</div>
+  
+  
+<div class="donofloaty">
+  <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+  <script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi!', '#011331', 'Q5Q14H9Q3');kofiwidget2.draw();</script>
+</div>
+
+
+
+</body>
+
+
+
+<!-- ______________footer_______________ -->
+
+<footer>
+<p style="line-height:20px">Coded by © BEARTHEBANGTAN | 2023</p>
+</footer>
+
+</html>
+
